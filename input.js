@@ -29,6 +29,14 @@ const handleUserInput = function (key) {
     return "Move: down";
   } else if (key === "a") {
     return "Move: left";
+  } else if (key === "1") {
+    return "Say: Suck it!";
+  } else if (key === "2") {
+    return "Say: Booya!";
+  } else if (key === "3") {
+    return "Say: Who's your daddy!?";
+  } else {
+    return "";
   }
 };
 
